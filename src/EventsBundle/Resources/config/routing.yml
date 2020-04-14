@@ -1,0 +1,22 @@
+event_homepage:
+    path:     /
+    defaults: { _controller: EventsBundle:Default:index }
+
+event_Ajout:
+    path:     /admin/AjouterEvent
+    defaults: { _controller: EventsBundle:Events:AjouterEvent }
+event_Afficher:
+    path:     /admin/AfficherEvent
+    defaults: { _controller: EventsBundle:Events:AfficheEvent }
+
+event_delete:
+    path:     /admin/deleteEvent/{id}
+    defaults: { _controller: EventsBundle:Events:deleteEvent }
+
+event_modifier:
+    path:     /admin/dModifierEvent/{id}
+    defaults: { _controller: EventsBundle:Events:ModifierEvent }
+
+event_front:
+    path: /Client/Events
+    defaults: { _controller: EventsBundle:Events:AfficheEventsFront}
