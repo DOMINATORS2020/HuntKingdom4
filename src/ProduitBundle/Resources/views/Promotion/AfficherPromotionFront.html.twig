@@ -8,7 +8,7 @@
                 </div>
                 <div class="row">
                     <br>
-                    {% for p in prod %}
+                    {% for p in pro %}
                         {% if p.IdProduit.nvprix != 0 %}
                             {% set datePost = p.datef|date('d-m-Y') %}
                             {% set today = "now"|date('d-m-Y') %}
@@ -45,7 +45,7 @@
                 <div class="navigation text-center " ><br>
                     <br>
                     <br>
-                    {{ knp_pagination_render(prod) }}
+                    {{ knp_pagination_render(pro) }}
                 </div>
             </div>
         </div>

@@ -98,22 +98,12 @@ class ProduitController extends Controller
     {
         $m = $this->getDoctrine()->getManager();
         $Prod = $m->getRepository("ProduitBundle:Produit")->findAll();
-        /**
-         * @var $paginator \Knp\Component\Pager\Paginator
-         */
         $paginator = $this->get('knp_paginator');
-        $result = $paginator->paginate(
-            $Prod,
-            $request->query->getInt('page',1),
-            $request->query->getInt('limit',10)
-
-        );
-
-
+        $pagination = $paginator->paginate($Prod, $request->query->getInt('page', 1), 6);
         return $this->render('ProduitBundle:Produit:AfficheProduitFront.html.twig', array(
-            'prod' => $result,
-
+            'prod' => $pagination
         ));
+
     }
 
 

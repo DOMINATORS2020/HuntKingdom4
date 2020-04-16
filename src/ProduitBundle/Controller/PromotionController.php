@@ -107,19 +107,10 @@ class PromotionController extends  Controller
     {
         $m = $this->getDoctrine()->getManager();
         $Promo = $m->getRepository("ProduitBundle:Promotion")->findAll();
-
-        /**
-         * @var $paginator \Knp\Component\Pager\Paginator
-         */
         $paginator = $this->get('knp_paginator');
-        $result = $paginator->paginate(
-            $Promo,
-            $request->query->getInt('page',1),
-            $request->query->getInt('limit',10)
-
-        );
+        $pagination = $paginator->paginate($Promo, $request->query->getInt('page', 1), 6);
         return $this->render('ProduitBundle:Promotion:AfficherPromotionFront.html.twig', array(
-            'prod' => $result,
+            'pro' => $pagination
 
         ));
     }

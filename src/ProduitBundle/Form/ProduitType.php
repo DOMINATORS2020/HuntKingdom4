@@ -18,8 +18,8 @@ class ProduitType extends AbstractType
         $builder->add('nom')
             ->add('type',ChoiceType::class,[
                 'choices'=> [
-                    'Fishing'=>'Hunting',
-                    'Hunting'=>'Fishing',
+                    'Fishing'=>'Fishing',
+                    'Hunting'=>'Hunting',
                 ],
             ])
 

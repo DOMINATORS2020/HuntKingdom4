@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dc16bfa-9bda-4fba-92f6-72199c94617f" name="Default Changelist" comment="" />
+    <list default="true" id="1dc16bfa-9bda-4fba-92f6-72199c94617f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Controller/ProduitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Controller/ProduitController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Controller/PromotionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Controller/PromotionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Form/ProduitType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Form/ProduitType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Resources/views/Promotion/AfficherPromotionFront.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Resources/views/Promotion/AfficherPromotionFront.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StockBundle/Resources/views/Stock/ModifierStock.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockBundle/Resources/views/Stock/ModifierStock.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +55,9 @@
       <command text="s doctrine:database:create" />
       <command text="s doctrine:schema:update --force " />
     </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -99,13 +110,8 @@
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
-    <option name="y" value="1" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
-  </component>
   <component name="ProjectId" id="1XZGhwnLTVWCbxW0beaFSyUOqi3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -113,6 +119,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -122,21 +129,21 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Entity" />
+      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Controller" />
+      <recent name="C:\wamp64\www\Projet\src\UserBundle\Resources\views" />
+      <recent name="C:\wamp64\www\Projet\src\UserBundle\Redirection" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\ProjetDali\src\StockBundle\Resources\views" />
       <recent name="C:\wamp\www\ProjetDali\src\ProduitBundle\Resources\views" />
       <recent name="C:\wamp\www\ProjetDali\src\ProduitBundle\Form" />
       <recent name="C:\wamp\www\ProjetDali\src" />
       <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Resources\views\Commentaire" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Entity" />
-      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Controller" />
-      <recent name="C:\wamp64\www\Projet\src\UserBundle\Resources\views" />
-      <recent name="C:\wamp64\www\Projet\src\UserBundle\Redirection" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -223,6 +230,9 @@
       <workItem from="1586725466706" duration="3664000" />
       <workItem from="1586729303585" duration="2000" />
       <workItem from="1586785683803" duration="8188000" />
+      <workItem from="1586854777841" duration="2032000" />
+      <workItem from="1587023792935" duration="2015000" />
+      <workItem from="1587067288238" duration="3305000" />
     </task>
     <servers />
   </component>
@@ -258,10 +268,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1581249197718" />
-    <state x="549" y="258" key="Github.ShareDialog" timestamp="1586792032451">
+    <state x="549" y="258" key="Github.ShareDialog" timestamp="1586855870332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="549" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1586792032451" />
+    <state x="549" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1586855870332" />
+    <state x="371" y="70" key="Github.UntrackedFilesDialog" timestamp="1586855324211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="371" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586855324211" />
     <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1586795173335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -278,25 +292,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586795173335" />
-    <state x="184" y="7" key="SettingsEditor" timestamp="1586793245339">
+    <state x="184" y="7" key="SettingsEditor" timestamp="1586856222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586793245339" />
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586856222166" />
     <state x="451" y="267" key="SymfonyPathDialog" timestamp="1586785898624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="451" y="267" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1586785898624" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1586785733942">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1587070687290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586785733942" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1586792945381">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587070687290" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587067289465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586792945381" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586792359143">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587067289465" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586854857186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586792359143" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586854857186" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587070673490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587070673490" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587070685342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587070685342" />
   </component>
 </project>
