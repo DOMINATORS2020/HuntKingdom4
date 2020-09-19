@@ -107,7 +107,7 @@ class Produit
     public function getWebpath(){
 
 
-        return null === $this->nomfile ? null : $this->getUploadDir.'/'.$this->nomfile;
+        return null === $this->nomfile ? null : $this->getUploadDir().'/'.$this->nomfile;
     }
     protected  function  getUploadRootDir(){
 
@@ -119,7 +119,7 @@ class Produit
     }
     public function getUploadFile(){
         if (null === $this->getFile()) {
-            $this->nomfile = "3.jpg";
+            $this->nomfile = "";
             return;
         }
 
@@ -302,23 +302,34 @@ class Produit
         $this->description = $description;
     }
 
-
-
     /**
-     * @return mixed
+     * @return int
      */
-    public function getIdProduit()
+    public function getEnable()
     {
-        return $this->id_produit;
+        return $this->enable;
     }
 
     /**
-     * @param mixed $id_produit
+     * @param int $enable
      */
-    public function setIdProduit($id_produit)
+    public function setEnable($enable)
     {
-        $this->id_produit = $id_produit;
+        $this->enable = $enable;
     }
+    /**
+     * @var integer
+     *
+     *
+     *
+     * @ORM\Column(name="enable", type="integer")
+     *
+     */
+    private $enable;
+
+
+
+
 
 
 

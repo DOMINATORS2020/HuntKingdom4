@@ -7,8 +7,11 @@ namespace ProduitBundle\Controller;
 use Doctrine\ORM\Query\AST\Functions\CurrentDateFunction;
 use ProduitBundle\Entity\Promotion;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use ProduitBundle\Entity\Produit;
+use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
+use Symfony\Component\Serializer\Serializer;
 
 class PromotionController extends  Controller
 {
@@ -26,8 +29,10 @@ class PromotionController extends  Controller
             $val=$em->getRepository(Produit::class)->find($Promotion->getIdProduit());
 
             $val->setNvPrix(($val->getPrix() * (100 -$Promotion->getValeur()) )/100);
-            $em->flush();
+            $val->setEnable(1);
+
             $em->persist($val);
+            $em->flush();
 
 
             return $this->redirectToRoute('Promotion_Affiche');
@@ -98,7 +103,7 @@ class PromotionController extends  Controller
         $em = $this->getDoctrine()->getManager();
 
         return $this->render('ProduitBundle:Promotion:ModifierPromotion.html.twig', array(
-            'produit' => $promotion,
+            'promotion' => $promotion,
             'form' => $editForm->createView(),
         ));
     }
@@ -108,11 +113,20 @@ class PromotionController extends  Controller
         $m = $this->getDoctrine()->getManager();
         $Promo = $m->getRepository("ProduitBundle:Promotion")->findAll();
         $paginator = $this->get('knp_paginator');
-        $pagination = $paginator->paginate($Promo, $request->query->getInt('page', 1), 6);
+        $pagination = $paginator->paginate($Promo, $request->query->getInt('page', 1), 4);
         return $this->render('ProduitBundle:Promotion:AfficherPromotionFront.html.twig', array(
             'pro' => $pagination
 
         ));
+    }
+    public function AfficheProduitMobilePromoAction(Request $request)
+
+    {
+        $m = $this->getDoctrine()->getManager();
+        $Produit = $m->getRepository(Produit::class)->findBy(array('enable'=> 1));
+        $serializer = new Serializer([new ObjectNormalizer()]);
+        $formatted = $serializer->normalize($Produit);
+        return new JsonResponse($formatted);
     }
 
 }

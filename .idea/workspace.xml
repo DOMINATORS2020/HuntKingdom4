@@ -2,13 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc16bfa-9bda-4fba-92f6-72199c94617f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProduitBundle/350810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/12.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/20743.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/350810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/52087533_2601504939866835_4201695183449882624_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/61pIOAFSJjL._SL1000_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/71841541_2341421336170871_438189786356776960_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/IMG-20200601-WA0012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/art-backlit-crescent-moon-556665.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeaaf195757c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeaaf7c2bf55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeab2450ac9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeab3040577a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeab39c06e71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeab3f4037f7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeab520aed77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/f_5eeab779c2ffb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/tÃ©lÃ©chargement (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/2000px-Windows_logo_-_2012_derivative.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/61sd92lBQaL._UX569_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/68485758_434323030495300_8219775889315987456_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/f_5eeaa5a68445b.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/f_5eeaa5c2a794e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/f_5eeaaced35a8e.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Upload/uploads/ÃƒÂ©pave-Rimel-480x319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Controller/ProduitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Controller/ProduitController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Controller/PromotionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Controller/PromotionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Form/ProduitType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Form/ProduitType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Resources/views/Promotion/AfficherPromotionFront.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Resources/views/Promotion/AfficherPromotionFront.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StockBundle/Resources/views/Stock/ModifierStock.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockBundle/Resources/views/Stock/ModifierStock.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Entity/Produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Entity/Produit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Entity/Promotion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Entity/Promotion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProduitBundle/Resources/views/Produit/AfficheProduitFront.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProduitBundle/Resources/views/Produit/AfficheProduitFront.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StockBundle/Controller/StockController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockBundle/Controller/StockController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StockBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockBundle/Resources/config/routing.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +141,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1XZGhwnLTVWCbxW0beaFSyUOqi3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -132,18 +165,18 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Entity" />
-      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Controller" />
-      <recent name="C:\wamp64\www\Projet\src\UserBundle\Resources\views" />
-      <recent name="C:\wamp64\www\Projet\src\UserBundle\Redirection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\ProjetDali\src\StockBundle\Resources\views" />
       <recent name="C:\wamp\www\ProjetDali\src\ProduitBundle\Resources\views" />
       <recent name="C:\wamp\www\ProjetDali\src\ProduitBundle\Form" />
       <recent name="C:\wamp\www\ProjetDali\src" />
       <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Resources\views\Commentaire" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Entity" />
+      <recent name="C:\wamp\www\ProjetDali\src\EventsBundle\Controller" />
+      <recent name="C:\wamp64\www\Projet\src\UserBundle\Resources\views" />
+      <recent name="C:\wamp64\www\Projet\src\UserBundle\Redirection" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -159,10 +192,10 @@
       <command value="s cache:clear" />
       <command value="c clear-cache" />
       <command value="c  require symfony/validator" />
-      <command value="s doctrine:schema:update --force" />
       <command value="c .gitignore " />
       <command value="git init" />
       <command value="Categorie.php (PHP Script)" />
+      <command value="s doctrine:schema:update --force" />
     </option>
   </component>
   <component name="RunManager" selected="PHP Script.Categorie.php">
@@ -232,8 +265,32 @@
       <workItem from="1586785683803" duration="8188000" />
       <workItem from="1586854777841" duration="2032000" />
       <workItem from="1587023792935" duration="2015000" />
-      <workItem from="1587067288238" duration="3305000" />
+      <workItem from="1587067288238" duration="3525000" />
+      <workItem from="1591443235295" duration="4238000" />
+      <workItem from="1591640663550" duration="32240000" />
+      <workItem from="1592344014913" duration="319000" />
+      <workItem from="1592347490569" duration="3216000" />
+      <workItem from="1592420431640" duration="6237000" />
+      <workItem from="1592510521907" duration="2508000" />
+      <workItem from="1595063063244" duration="1342000" />
+      <workItem from="1595064436383" duration="207000" />
+      <workItem from="1595116947158" duration="1182000" />
+      <workItem from="1595720411068" duration="1276000" />
+      <workItem from="1595890993318" duration="1124000" />
+      <workItem from="1595939784630" duration="4140000" />
+      <workItem from="1596024208817" duration="4610000" />
+      <workItem from="1597750028538" duration="2664000" />
+      <workItem from="1597753324695" duration="946000" />
+      <workItem from="1597932013061" duration="4615000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1587070734130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587070734130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,78 +304,55 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="402" y="60" key="#Categorie.php" timestamp="1586792950170">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="476" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1591730791559">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="402" y="60" key="#Categorie.php/0.0.1366.728@0.0.1366.728" timestamp="1586792950170" />
-    <state x="275" y="23" key="#Notifications" timestamp="1586791961723">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="476" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1591730791559" />
+    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591733301206">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1586791961723" />
-    <state x="407" y="243" key="ComposerCompositePathDialog" timestamp="1586785872601">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1591733301206" />
+    <state x="463" y="112" width="439" height="515" key="FileChooserDialogImpl" timestamp="1595720469048">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="407" y="243" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1586785872601" />
-    <state x="463" y="106" width="439" height="515" key="FileChooserDialogImpl" timestamp="1586792709809">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="463" y="112" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595720469048" />
+    <state x="549" y="272" key="Github.ShareDialog" timestamp="1591819221116">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="106" width="439" height="515" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586792709809" />
-    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1581249197718">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="549" y="272" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1591819221116" />
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1591986103868">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1581249197718" />
-    <state x="549" y="258" key="Github.ShareDialog" timestamp="1586855870332">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591986103868" />
+    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1591986103801">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="549" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1586855870332" />
-    <state x="371" y="70" key="Github.UntrackedFilesDialog" timestamp="1586855324211">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591986103801" />
+    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1591986103618">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="371" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586855324211" />
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1586795173335">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591986103618" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1591986103802">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586795173335" />
-    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1586795173335">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591986103802" />
+    <state x="379" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1597753325681">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586795173335" />
-    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1586795173335">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="379" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1597753325681" />
+    <state x="339" y="171" width="672" height="715" key="run.anything.popup" timestamp="1597938375824">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586795173335" />
-    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1586795173335">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="339" y="171" width="672" height="715" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1597938375824" />
+    <state x="346" y="52" width="672" height="716" key="search.everywhere.popup" timestamp="1591819187985">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586795173335" />
-    <state x="184" y="7" key="SettingsEditor" timestamp="1586856222166">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586856222166" />
-    <state x="451" y="267" key="SymfonyPathDialog" timestamp="1586785898624">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="451" y="267" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1586785898624" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1587070687290">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587070687290" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587067289465">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587067289465" />
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586854857186">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586854857186" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587070673490">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587070673490" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587070685342">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587070685342" />
+    <state x="346" y="52" width="672" height="716" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591819187985" />
   </component>
 </project>

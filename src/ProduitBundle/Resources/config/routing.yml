@@ -39,5 +39,23 @@ Poromo_Front:
 Produit_Front:
     path:     /Client/AfficherProduitFront
     defaults: { _controller: ProduitBundle:Produit:AfficheProduitFront }
+Produit_mob:
+    path:     /ProduitsMob
+    defaults: { _controller: ProduitBundle:Produit:AfficheProduitMobile }
+Produit_mobPromo:
+    path:     /ProduitsMobPromo
+    defaults: { _controller: ProduitBundle:Promotion:AfficheProduitMobilePromo }
+Produit_mobADD:
+    path:     /AddProductMob
+    defaults: { _controller: ProduitBundle:Produit:AddProductMob }
+Produit_mobDelete:
+        path:     /DeleteProductMob/{id}
+        defaults: { _controller: ProduitBundle:Produit:C }
+Produit_mobModif:
+        path:  /ModiferStockMobile/{id}/{nom}/{prix}/{quantite}
+        defaults: { _controller: ProduitBundle:Produit:ModiferStockMobile }
+Promo_mobADD:
+            path:  /AddPromoMob
+            defaults: { _controller: ProduitBundle:Produit:AddPromotionMob }
 
 

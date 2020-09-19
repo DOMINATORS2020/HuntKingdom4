@@ -5,7 +5,10 @@ namespace StockBundle\Controller;
 
 use ProduitBundle\Entity\Produit;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
+use Symfony\Component\Serializer\Serializer;
 
 class StockController extends Controller
 {
@@ -106,5 +109,6 @@ class StockController extends Controller
             'form' => $editForm->createView(),
         ));
     }
+
 
 }

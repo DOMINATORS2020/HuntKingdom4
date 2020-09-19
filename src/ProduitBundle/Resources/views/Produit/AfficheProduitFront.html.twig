@@ -16,7 +16,7 @@
 
                                 <div class="col col">
 
-                                    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                                    <div class="col-md-4 col-sm-6 co-xs-12">
                                         <div class="f_p_img">
                                             <a href="#" data-toggle="modal" data-target="#2">
                                                 <img src="{{ asset('Upload/')}}{{ p.nomfile }}"  width="200" height="250" class="img-rectangle" class="col col "  /></a>
@@ -41,10 +41,10 @@
                     {% endfor %}
 
                 </div>
-                <div class="navigation text-center " ><br>
+                <div class="navigation text-center " >{{ knp_pagination_render(prod) }}<br>
                     <br>
                     <br>
-                    {{ knp_pagination_render(prod) }}
+
 
                 </div>
             </div>
